@@ -13,7 +13,7 @@ def melange_phrase2(phrase: str) -> str:
     
         T_mots_melange.append(melange_mot(mot))   
 
-        #on enlève les signes de ponctuation
+        #on regarde si il y a des mots à ponctuation qui seraient mal mélangés
         for ponctuation in ".,;:?!\"'-":
 
             if ponctuation in mot:
