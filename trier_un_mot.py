@@ -1,6 +1,6 @@
 from wordlist import make_wordlist
 
-def tri_mot(mot):
+def tri_mot(mot:str) -> str:
     """
     Entrée : un mot (str) mélangé de façon a toujours garder la première et dernière lettre au bon endroit, ne doit pas comporter de majuscule au début.
     Sortie : le mot non-mélangé (str), None si le mot n'a pas été trouvé dans la liste de mots.
@@ -8,7 +8,13 @@ def tri_mot(mot):
     if len(mot)<= 3:
         return mot
 
+
     WORDLIST = make_wordlist("liste_des_mots_français.txt")
+
+    #on enlève les majuscules qui ne sont pas dans le fichier
+    if mot.istitle():
+        capitalized = True
+        mot = mot.lower()
 
     for mot_possible in WORDLIST[mot[0]][len(mot)]:
 
@@ -21,7 +27,8 @@ def tri_mot(mot):
 
                 #on vérifie si les deux mots ont exactement les mêmes lettres
                 if T == T2:
+                    if capitalized:
+                        return mot_possible.title()
                     return mot_possible
 
     return 
-
