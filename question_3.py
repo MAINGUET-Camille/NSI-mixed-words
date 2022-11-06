@@ -23,7 +23,7 @@ def question_3(tout_transformer, stockage):
     file = open(stockage, 'w', encoding="utf-8")
     #écriture du texte transformé dans le fichier de sortie
     file.write(chaine_triee)
-    #fermeture le fichier
+    #fermeture du fichier
     file.close()
     return
 
