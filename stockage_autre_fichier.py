@@ -3,7 +3,7 @@
 
 from fonction_melange_phrase import melange_phrase
 
-def question_3(tout_transformer, stockage):
+def stockage_autre_fichier(tout_transformer, stockage):
     '''
     Entrée: un fichier texte contenant le texte à transformer (tout_transformer) et le nom sous lequel le nouveau fichier va être crée (stockage)
     Fonction qui applique les règles de mélange au texte et le stock dans un autre fichier
