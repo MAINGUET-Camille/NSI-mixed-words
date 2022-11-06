@@ -1,4 +1,3 @@
-from melange_mot import melange_mot
 from trier_un_mot import tri_mot
 import re as re
 

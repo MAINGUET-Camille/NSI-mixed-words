@@ -14,5 +14,5 @@ hmauin ne lit pas chuaqe ltetre elle-mmêe mias le mot comme
 un tuot."""
 
 
-print(melange_phrase(phrase))
+print(melange_phrase(phrase_1))
 print(tri_phrase(phrase_2))
