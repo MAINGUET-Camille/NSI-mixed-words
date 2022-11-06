@@ -12,7 +12,7 @@ phrase_2 = """Sleon une édtue de l'Uvinertisé de Cmabrigde, l'odrre des
 ltteers dans un mtos n'a pas d'ipmrotncae, la suele coshe 
 ipmrotnate est que la pmeirère et la drenèire soit à la bnnoe 
 pclae. Le rsete peut êrte dans un dsérorde ttoal et vuos puoevz 
-tujoruos lrie snas porlblème. C'est prace que le creaveu 
+tujoruos lrie snas porlbème. C'est prace que le creaveu 
 hmauin ne lit pas chuaqe ltetre elle-mmêe mias le mot comme 
 un tuot."""
 
