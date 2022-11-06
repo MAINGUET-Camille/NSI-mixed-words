@@ -1,5 +1,14 @@
-				Projet 1 – Texte mélangé
+				Projet 1 - Texte mÃ©langÃ©
 
-1 – Ce texte a été mélangé de manière à ce que les lettres de chaque mot soient mélangés, tout en conservant la première et la dernière lettre intacte.
+1 - Ce texte a Ã©tÃ© mÃ©langÃ© de maniÃ©re Ã  ce que les lettres de chaque mot soient mÃ©langÃ©es, tout en conservant la premiÃ©re et la derniÃ¨re lettre intacte.
 
-Pour les questions 2 et 3, nous nous sommes réparties le travail. Pour la question 2, Camille a créé une fonction qui mélange un mot et Naima s’est occupée de séparer les mots de la phrase. Eloïse s’est occupée de la question 3.
+Camille:
+	Je me suis occupÃ©e de faire le mÃ©lange des lettres Ã  l'interieur d'un mot pour que les premiÃ©res et derniÃ©res lettres ne changent pas de place, mais que les autres soient mÃ©langÃ©es alÃ©atoirement.
+	J'ai aussi crÃ©e une fonction qui peut re-trier les lettres d'un mot, et je l'ai adaptÃ© pour qu'elle fonctionne sur une phrase grace Ã  la fonction melange_phrase de Naima. 
+	(Comme la fonction a besoin d'un dictionnaire, elle ne pourra pas fonctionner si je la met sur moodle mais vous pouvez la trouver sur github: https://github.com/MAINGUET-Camille/NSI-mixed-words.git)
+
+Naima:
+
+
+Ã‰loÃ¯se:
+	
