@@ -10,5 +10,6 @@ Camille:
 Naima:
 
 
-Éloïse:
+Eloïse:
+	Je me suis occupée de la question 3 où j'ai crée la fonction stockage_autre_fichier, qui applique les règles de mélange au texte et le stock dans un autre fichier.
 	
