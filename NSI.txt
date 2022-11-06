@@ -1,0 +1,5 @@
+				Projet 1 – Texte mélangé
+
+1 – Ce texte a été mélangé de manière à ce que les lettres de chaque mot soient mélangés, tout en conservant la première et la dernière lettre intacte.
+
+Pour les questions 2 et 3, nous nous sommes réparties le travail. Pour la question 2, Camille a créé une fonction qui mélange un mot et Naima s’est occupée de séparer les mots de la phrase. Eloïse s’est occupée de la question 3.
