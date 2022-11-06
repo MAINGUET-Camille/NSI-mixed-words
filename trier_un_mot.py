@@ -1,14 +1,14 @@
 from wordlist import make_wordlist
 
-def tri_mot(mot):
+WORDLIST = make_wordlist("liste_des_mots_français.txt")
+
+def tri_mot(mot:str) -> str:
     """
-    Entrée : un mot (str) mélangé de façon a toujours garder la première et dernière lettre au bon endroit, ne doit pas comporter de majuscule au début.
-    Sortie : le mot non-mélangé (str), None si le mot n'a pas été trouvé dans la liste de mots.
+    Entrée : un mot (str) mélangé de façon a toujours garder la première et dernière lettre au bon endroit, ne doit pas comporter de majuscules.
+    Sortie : le mot non-mélangé (str), le mot mélangé si le mot n'a pas été trouvé dans la liste de mots.
     """
     if len(mot)<= 3:
         return mot
-
-    WORDLIST = make_wordlist("liste_des_mots_français.txt")
 
     for mot_possible in WORDLIST[mot[0]][len(mot)]:
 
@@ -22,6 +22,4 @@ def tri_mot(mot):
                 #on vérifie si les deux mots ont exactement les mêmes lettres
                 if T == T2:
                     return mot_possible
-
-    return 
-
+    return mot
