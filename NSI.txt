@@ -4,8 +4,8 @@
 
 Camille:
 	Je me suis occupée de faire le mélange des lettres à l'interieur d'un mot pour que les premières et dernières lettres ne changent pas de place, mais que les autres soient mélangées aléatoirement.
-	J'ai aussi crée une fonction qui peut re-trier les lettres d'un mot, et je l'ai adapté pour qu'elle fonctionne sur une phrase grace à la fonction melange_phrase de Naima. 
-	(Comme la fonction a besoin d'un dictionnaire, elle ne pourra pas fonctionner si je la met sur moodle mais vous pouvez la trouver sur github: https://github.com/MAINGUET-Camille/NSI-mixed-words.git)
+	J'ai aussi créée une fonction qui peut re-trier les lettres d'un mot, et je l'ai adaptée pour qu'elle fonctionne sur une phrase grâce à la fonction "melange_phrase" de Naima. 
+	(Étant donné que la fonction a besoin d'une liste de mots, elle ne pourra pas fonctionner si je la mets sur Moodle mais vous pouvez la trouver sur github: https://github.com/MAINGUET-Camille/NSI-mixed-words.git)
 
 Naima:
 	Je me suis occupée de créer la fonction melange_phrase, qui mélange tout les mots d'une ou plusieurs phrase(s) grâce à la fonction melange_mot de Camille.
